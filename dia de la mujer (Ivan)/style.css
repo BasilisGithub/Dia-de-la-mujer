@@ -1,0 +1,207 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*HTML*/
+html{
+    scroll-behavior: smooth;
+}
+/*Body*/
+body{
+    color: #fff;
+    background: #121212;
+}
+
+/*Nav*/
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background: rgba(255, 255, 255, .30);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, .18);
+    justify-content: center;
+    font-size: 1.2rem;
+    z-index: 10000;
+}
+
+nav img{
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 20px 50px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: #ff3f86;
+    font-size: 1.3rem;
+  }
+
+/*Inicio*/
+#inicio{
+    background: #FF86B1;
+    height: 100vh;
+    display: flex;
+}
+
+#inicio img{
+    height: 500px;
+    position: relative;
+    top: 158px;
+    left: 50px;
+}
+
+.texto-inicio{
+    position: relative;
+    top: 250px;
+}
+
+.texto-inicio h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.texto-inicio a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    background: #ff3f86;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    transition: 1s;
+}
+
+.texto-inicio a:hover{
+    background: rgba(255, 255, 255, .30);
+    backdrop-filter: blur(2px);
+    color: #ff3f86;
+}
+
+.texto-inicio span{
+    font-size: 4rem;
+    color: #ff3f86;
+}
+
+/*Origen*/
+
+.texto-1{
+    width: 400px;
+    height: 150px;
+    padding: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 250px;
+    left: 450px;
+    background: #FF86B1;
+}
+
+.flor{
+    rotate: 50deg;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+}
+
+.texto-2{
+    margin-top: 50px;
+    margin-left: 230px;
+    padding: 25px;
+    height: 260px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    background: #FF86B1;
+}
+
+.chicas{
+    height: 310px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 310px;
+    left: 815px;
+}
+
+.remachadora{
+    margin-top: 100px;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+}
+
+.remachadora h2{
+    font-size: 2.5rem;
+    color: #ff3f86;
+    padding-bottom: 20px;
+}
+
+.remachadora p{
+    font-size: 1.4rem;
+}
+
+.vector{
+    width: 640px;
+    position: relative;
+    bottom: 400px;
+    right: 50px;
+    z-index: -1;
+}
+
+.rosie{
+    height: 500px;
+    position: relative;
+    bottom: 1000px;
+    left: 800px;
+}
+
+/*historia*/
+
+#historia{
+    height: 100vh;
+    background: #FF86B1;
+}
+
+.video{
+    margin-top: 450px;
+    width: 880px;
+    height: 505px;
+    background: #ff3f86;
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    border-radius: 10px;
+}
+
+video{
+    width: 860px;
+    height: 485px;
+}
